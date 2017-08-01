@@ -1,6 +1,6 @@
           <div class="blog-post">
             <h2 class="blog-post-title">
-              <a href="/post/ {{ $post->id}}" target="_blank"> 
+              <a href="/post/ {{ $post->id}}"> 
                 {{ $post->title }}
                 </a>
               </h2>
