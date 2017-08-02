@@ -11,6 +11,6 @@ class TagsController extends Controller
     {
     	$posts = $tag->posts;
 
-    	return view('posts.index', compact('posts'));
+    	return view('post.index', compact('posts'));
     }
 }
